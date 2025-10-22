@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Mauricar — خدمات وقطع غيار</title>
+  <style>
+    body{font-family:Cairo, Arial;margin:0;background:#f6f8fb;color:#122}
+    .wrap{max-width:1100px;margin:18px auto;padding:16px}
+    header{display:flex;align-items:center;gap:12px}
+    header img{height:64px}
+    h1{margin:8px 0}
+    .grid{display:grid;grid-template-columns:1fr 320px;gap:18px;margin-top:14px}
+    .card{background:#fff;padding:16px;border-radius:10px;box-shadow:0 6px 18px rgba(0,0,0,0.06)}
+    .gallery img{width:100%;border-radius:8px;margin-bottom:8px}
+    .social a{display:inline-block;margin:6px 6px;padding:8px 12px;background:#0f5fa8;color:#fff;border-radius:8px;text-decoration:none}
+    @media(max-width:900px){ .grid{grid-template-columns:1fr} }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <img src="images/mauricar-logo.png" alt="Mauricar">
+      <div>
+        <h1>Mauricar — خدمات السيارات</h1>
+        <div>المؤسسة الموريتانية لخدمات السيارات — منذ 2019</div>
+      </div>
+      <div style="margin-inline-start:auto">
+        <a href="index.html" style="text-decoration:none;background:#eee;padding:8px 10px;border-radius:8px">العودة للرئيسية</a>
+      </div>
+    </header>
+
+    <div class="grid">
+      <div class="card">
+        <h3>عن Mauricar</h3>
+        <p>نقدم خدمات صيانة شاملة، بيع وتركيب قطع غيار أصلية وغير أصلية، فحص كهرباء وتحاليل محركات، وخدمات ميكانيك متقدمة. هدفنا جودة الخدمة ورضا الزبون.</p>
+
+        <h4>خدماتنا</h4>
+        <ul>
+          <li>خدمات صيانة كاملة</li>
+          <li>توريد قطع غيار</li>
+          <li>فحص إلكتروني للمركبة</li>
+          <li>خدمات سريعة وصيانة في المكان</li>
+        </ul>
+
+        <h4>تواصل</h4>
+        <p>هاتف: <a href="tel:+22224242323">24242323</a><br>بريد: <a href="mailto:info@mauricar.net">info@mauricar.net</a></p>
+        <a href="https://wa.me/22224242323" target="_blank" style="background:#25D366;color:#fff;padding:10px 14px;border-radius:8px;text-decoration:none">واتساب</a>
+      </div>
+
+      <aside class="card">
+        <h4>معرض الصور</h4>
+        <div class="gallery">
+          <img src="images/mauricar1.jpg" alt="خدمة">
+          <img src="images/mauricar2.jpg" alt="قطع غيار">
+        </div>
+        <div class="social">
+          <a href="#" target="_blank">فيسبوك</a>
+          <a href="#" target="_blank">إنستغرام</a>
+        </div>
+      </aside>
+    </div>
+  </div>
+</body>
+</html>

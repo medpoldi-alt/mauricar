@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Mauriclean — منتجات التنظيف</title>
+  <style>
+    body{font-family:Cairo,Arial;margin:0;background:#f6f8fb;color:#122}
+    .wrap{max-width:1100px;margin:18px auto;padding:16px}
+    header{display:flex;align-items:center;gap:12px}
+    header img{height:72px}
+    .products{display:flex;gap:12px;flex-wrap:wrap;margin-top:12px}
+    .prod{background:#fff;padding:12px;border-radius:10px;box-shadow:0 6px 18px rgba(0,0,0,.06);width:calc(33% - 8px);min-width:200px}
+    .prod img{width:100%;border-radius:8px}
+    @media(max-width:900px){ .prod{width:48%} }
+    @media(max-width:520px){ .prod{width:100%} }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <img src="images/mauriclean-logo.png" alt="Mauriclean">
+      <div>
+        <h1>Mauriclean — منتجات التنظيف</h1>
+        <div>علامة موريتانية لصناعة وتوزيع مواد التنظيف</div>
+      </div>
+      <div style="margin-inline-start:auto">
+        <a href="index.html" style="text-decoration:none;background:#eee;padding:8px 10px;border-radius:8px">العودة للرئيسية</a>
+      </div>
+    </header>
+
+    <section style="margin-top:12px">
+      <p>Mauriclean متخصصة في تصنيع وتغليف منتجات تنظيف منزلية عالية الجودة تناسب السوق المحلي.</p>
+
+      <div class="products">
+        <div class="prod">
+          <img src="images/mauriclean1.jpg" alt="منتج 1">
+          <h4>منظف متعدد الاستعمالات</h4>
+          <p>وصف قصير للمنتج ومميزاته.</p>
+        </div>
+
+        <div class="prod">
+          <img src="images/mauriclean2.jpg" alt="منتج 2">
+          <h4>سائل غسيل الأواني</h4>
+          <p>وصف موجز وعبوة.</p>
+        </div>
+      </div>
+
+      <div style="margin-top:12px">
+        <strong>تواصل / بيع</strong><br>
+        <a href="mailto:info@mauricar.net">info@mauricar.net</a> · <a href="tel:+22224242323">24242323</a> · <a href="https://wa.me/22224242323" target="_blank">واتساب مباشر</a>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
